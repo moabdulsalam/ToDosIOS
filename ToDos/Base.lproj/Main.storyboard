@@ -33,7 +33,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To Do List" id="Blu-2g-ctz" colorLabel="IBBuiltInLabel-Red">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="5kw-Lm-qEy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5kw-Lm-qEy">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addItembutton:" destination="UVL-s1-5jP" id="ALc-Jk-y3b"/>
                             </connections>
@@ -67,5 +68,5 @@
             <point key="canvasLocation" x="248.80000000000001" y="100.29985007496252"/>
         </scene>
     </scenes>
-    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
